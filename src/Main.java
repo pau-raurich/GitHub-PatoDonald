@@ -1,7 +1,12 @@
 import java.util.Scanner;
 
+
 public class Main
 {
+    /**
+     * Programa que verifica si hi ha alguna data que coincideix
+     * @param args
+     */
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -19,6 +24,7 @@ public class Main
             cumpleRepe = false;
             dates = sc.nextLine().split(" ");
             cumples = new int[numDates * 2];
+
 
             for(int i = 0; i < numDates; i++)
             {
