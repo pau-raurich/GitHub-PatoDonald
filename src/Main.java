@@ -11,6 +11,7 @@ public class Main
     {
         Scanner sc = new Scanner(System.in);
         //Variables
+        System.out.println("Entra quantes dates vols introduir");
         int numDates = sc.nextInt();
         String[] dates;
         int[] cumples;
